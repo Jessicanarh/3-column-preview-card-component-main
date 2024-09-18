@@ -12,13 +12,42 @@ body{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   font-family: "Lexend Deca", sans-serif;
+   font-weight: 400;
+   font-size: 0.9375rem;
 }
 .parentcontainer{
     width: 57.625rem;
     height: 31.1875rem;
     border: 2px solid red; 
-
+display: flex;
 }
+.car{
+    border: 2px solid green; 
+padding: 2.9375rem;
+background-color: hsl(31, 77%, 52%) 
+}
+.car:nth-child(2){
+background-color:  hsl(184, 100%, 22%);
+}
+.car:nth-child(3){
+    background-color: hsl(179, 100%, 13%);
+}
+ h1{
+padding-top: 2.5625rem;
+font-family: "Big Shoulders Display", sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
+p{
+    padding-top: 2.4375rem;
+    padding-bottom: 5.4375rem;
+}
+button{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 
 
 
