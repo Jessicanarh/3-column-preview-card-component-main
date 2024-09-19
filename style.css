@@ -19,11 +19,9 @@ body{
 .parentcontainer{
     width: 57.625rem;
     height: 31.1875rem;
-    border: 2px solid red; 
 display: flex;
 }
 .car{
-    border: 2px solid green; 
 padding: 2.9375rem;
 background-color: hsl(31, 77%, 52%) 
 }
@@ -38,14 +36,27 @@ padding-top: 2.5625rem;
 font-family: "Big Shoulders Display", sans-serif;
 font-weight: 700;
 text-transform: uppercase;
+color: hsl(0, 0%, 95%)
 }
 p{
     padding-top: 2.4375rem;
     padding-bottom: 5.4375rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 button{
-    padding: 1rem;
-    border-radius: 1rem;
+    color:   hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);;
+    /* color: hsl(0, 0%, 95%);; */
+    border:hsl(0, 0%, 95%) ;
+    border-radius: 2rem;
+    width: 9.125rem;
+    height: 3rem;
+}
+.car:nth-child(2) button{
+    color:  hsl(184, 100%, 22%);
+}
+.car:nth-child(3) button{
+color:hsl(179, 100%, 13%) ;
 }
 
 
